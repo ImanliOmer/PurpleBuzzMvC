@@ -1,0 +1,24 @@
+﻿@using PurpleBuzz.Areas.Admin.ViewModels.RecentWorks;
+﻿@using PurpleBuzz.Models;
+@model RecentWorksVM
+
+<form style="width: 250px;" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="CardTitle"></label>
+        <input asp-for="CardTitle" class="form-control" placeholder="Enter card title">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CardText"></label>
+        <input asp-for="CardText" class="form-control" placeholder="Enter card text">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Photo"></label>
+        <input asp-for="Photo" class="form-control" placeholder="Photo">
+        <span class="text text-danger" asp-validation-for="Photo"></span>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <button class="btn btn-inverse-outline-dark" asp-action="Index">Go back</button>
+</form>

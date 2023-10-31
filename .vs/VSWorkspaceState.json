@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PurpleBuzz",
+    "\\PurpleBuzz\\Areas",
+    "\\PurpleBuzz\\Areas\\Admin",
+    "\\PurpleBuzz\\Areas\\Admin\\ViewModels",
+    "\\PurpleBuzz\\Areas\\Admin\\ViewModels\\ServiceComponent",
+    "\\PurpleBuzz\\Areas\\Admin\\Views",
+    "\\PurpleBuzz\\Areas\\Admin\\Views\\RecentWorks",
+    "\\PurpleBuzz\\Views",
+    "\\PurpleBuzz\\Views\\Contact"
+  ],
+  "SelectedNode": "\\PurpleBuzz\\Areas\\Admin\\Views\\RecentWorks\\Update.cshtml",
+  "PreviewInSolutionExplorer": false
+}
